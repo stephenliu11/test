@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: accountability-tracker
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python accountability_app.py"
+    plan: free

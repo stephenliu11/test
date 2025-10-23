@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# SQLite DB
+accountability.db
+
+# Virtual env
+venv/
+.env
+
+# VS Code
+.vscode/
+
+# Byte-compiled
+*.egg-info/
+*.egg
+
+# macOS
+.DS_Store
